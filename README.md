@@ -11,6 +11,9 @@ When you're new to [Robot Framework](https://robotframework.org/), it can be cha
 
 This repository explores how these Tosca puzzles can also be tackled using **Robot Framework** within **Visual Studio Code**.
 
+Of course, if you work with both Tosca and Robot Framework, you can also compare the two automation options. Each has its own pros and cons!  
+
+
 ---
 
 ## How to use this repository?
@@ -37,7 +40,7 @@ Help us complete the obstacle list! If you have solutions, ideas, or improvement
 
 - **Robot Framework**: [https://robotframework.org/](https://robotframework.org/)  
 - **Tosca Obstacle Course**: [https://obstaclecourse.tricentis.com/Obstacles/List](https://obstaclecourse.tricentis.com/Obstacles/List)
-
+- **Tosca Obstacle Course, Tosca solutions**: [https://www.youtube.com/playlist?list=PLyN4Fw7MBsaJWcK1nyXzeOu_-nav-ZXUC](https://www.youtube.com/playlist?list=PLyN4Fw7MBsaJWcK1nyXzeOu_-nav-ZXUC)
 ---
 
 Thank you for stopping by! 🚀
