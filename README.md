@@ -22,9 +22,9 @@ Here, you'll find solutions (or work-in-progress attempts) to the obstacles from
 Each file corresponds to a specific obstacle, with the following naming convention:
 
 - **Completed Obstacles**: Files are named according to the obstacle number.  
-  Example: `01_puzzle1.robot`  
+  Example: `testfile-72954.robot`  
 - **In-Progress Obstacles**: A `_` is added after the number for files that are not yet finalized.  
-  Example: `02_puzzle2__.robot`
+  Example: `testfile-72955_.robot.robot`
 
 Feel free to explore, adapt, and build upon these solutions. Contributions are more than welcome! 😊  
 
