@@ -1,9 +1,9 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    String
+Variables  variables.py
 
 *** Variables ***
-${BROWSER}    Chrome
 ${URL}        https://obstaclecourse.tricentis.com/Obstacles/87912
 ${BOOKS_ID}   books
 ${BOOK_TITLE}  Testing Computer Software

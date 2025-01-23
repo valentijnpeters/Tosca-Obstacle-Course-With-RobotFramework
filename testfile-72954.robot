@@ -1,8 +1,8 @@
 *** Settings ***
 Library    SeleniumLibrary
+Variables  variables.py
 
 *** Variables ***
-${BROWSER}    Chrome
 ${URL}        https://obstaclecourse.tricentis.com/Obstacles/72954
 
 *** Test Cases ***

@@ -1,5 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
+Variables  variables.py
 
 *** Variables ***
 ${URL}              https://obstaclecourse.tricentis.com/Obstacles/82018
@@ -9,7 +10,7 @@ ${SUCCESS_TEXT}     You solved this automation problem.
 *** Test Cases ***
 
 Follow Dynamic Instructions
-    Open Browser    ${URL}    Chrome
+    Open Browser    ${URL}
     Maximize Browser Window
     Sleep  1
     Click Element  id=start

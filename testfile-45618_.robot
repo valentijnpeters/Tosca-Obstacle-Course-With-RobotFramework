@@ -4,9 +4,9 @@ Library    String
 Library    OperatingSystem
 Library    Process
 Library    pyperclip
+Variables  variables.py
 
 *** Variables ***
-${BROWSER}    Chrome
 ${URL}        https://obstaclecourse.tricentis.com/Obstacles/45618
 ${STRING}     ${EMPTY}
 

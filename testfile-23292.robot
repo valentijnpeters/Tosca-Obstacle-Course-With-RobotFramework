@@ -1,11 +1,11 @@
 *** Settings ***
 Library    SeleniumLibrary
+Variables  variables.py
 
 *** Variables ***
 ${URL}            https://obstaclecourse.tricentis.com/Obstacles/23292
 ${SOURCE_TABLE_ID}    todo-tasks
 ${TARGET_TABLE_ID}    completed-tasks
-${BROWSER}    Chrome
 
 *** Test Cases ***
 Drag And Drop All Tasks
