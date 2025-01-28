@@ -24,11 +24,13 @@ Run Drag And Drop With Failsafe
     Run Keyword If    '${status}' == 'False'    Run Custom Drag And Drop Method    ${draggable}    ${target}    ${verification_locator}    ${verification_text}
     Element Should Contain    ${verification_locator}    ${verification_text}
 
+    #RBFW Domain Specific Language
 Drag And Drop With Verification
     [Arguments]    ${draggable}    ${target}    ${verification_locator}    ${verification_text}
     Drag And Drop    ${draggable}    ${target}
     Element Should Contain    ${verification_locator}    ${verification_text}
 
+    #Custom .py library
 Run Custom Drag And Drop Method
     [Arguments]    ${draggable}    ${target}    ${verification_locator}    ${verification_text}
     CustomLib.custom_drag_and_drop_with_failsafe    ${draggable}    ${target}    ${verification_locator}    ${verification_text}
