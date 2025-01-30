@@ -35,21 +35,22 @@ Visueel Klikken Onder Submit
     #Click Page At Coordinates  ${click_x}    ${click_y}
     #Sleep    1s
     
-    #combined
-    Draw Dot and Click At Coordinates   ${click_x}  ${click_y}
+    #combined , blue dot
+    ${js_code}=    Draw Dot and Click At Coordinates   ${click_x}  ${click_y}
+    Execute JavaScript    ${js_code}
+
+    #Draw Dot and Click At Coordinates   ${click_x}  ${click_y}
     #Draw Dot and Click At Coordinates  ${click_x}  ${click_y}
 
     # Wait for the page to respond before proceeding
-    Sleep    1s
 
      # Click at the exact location (Now with improved visibility)
-    Click Element At Coordinates    xpath=//*[@id='submit']    132    130
+    #Click Element At Coordinates    xpath=//*[@id='submit']    132    130
 
     # Wait for the page to respond before proceeding
-    Sleep    1s
 
     # Scroll down to bring up more content (if required)
-    Press Keys  //body       PAGE_DOWN
+    #Press Keys     //body   PAGE_DOWN
     Sleep    2s
 
     # Ensure overlay2 is visible (if needed)
